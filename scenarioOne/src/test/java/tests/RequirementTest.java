@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -33,6 +34,7 @@ public class RequirementTest extends BaseClass{
 		System.out.println("did some channges in local then pushing");
 		System.out.println("did some channges in local then pushing");
 	}
+
 	public void TestMouli() throws IOException {
 		String username = excelDataIsmport(1, 2);
 		System.out.println(username);
@@ -48,6 +50,10 @@ public class RequirementTest extends BaseClass{
 		System.out.println("did some channges in local then pushing");
 		System.out.println("did some channges in local then pushing");
 		System.out.println("did some channges in local then pushing");
+	}
+	@AfterTest
+	public void TearDrop() {
+
 	}
 	
 	
