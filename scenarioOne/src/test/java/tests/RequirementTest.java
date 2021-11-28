@@ -34,7 +34,7 @@ public class RequirementTest extends BaseClass{
 		System.out.println("did some channges in local then pushing");
 	}
 	public void TestMouli() throws IOException {
-		String username = excelDataIsmport(0, 1);
+		String username = excelDataIsmport(1, 2);
 		System.out.println(username);
 		System.out.println("did some channges in local then pushing");
 		System.out.println("did some channges in local then pushing");//
