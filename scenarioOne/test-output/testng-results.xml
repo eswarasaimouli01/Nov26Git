@@ -2,16 +2,10 @@
 <testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="77164" started-at="2021-10-04T01:17:48 IST" finished-at="2021-10-04T01:19:05 IST">
+  <suite name="Suite" duration-ms="47" started-at="2021-11-28T22:20:38 IST" finished-at="2021-11-28T22:20:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="77164" started-at="2021-10-04T01:17:48 IST" finished-at="2021-10-04T01:19:05 IST">
-      <class name="tests.RequirementTest">
-        <test-method status="PASS" signature="browserInvocking()[pri:0, instance:tests.RequirementTest@22a67b4]" name="browserInvocking" is-config="true" duration-ms="77069" started-at="2021-10-04T01:17:48 IST" finished-at="2021-10-04T01:19:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserInvocking -->
-      </class> <!-- tests.RequirementTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    <test name="Test" duration-ms="47" started-at="2021-11-28T22:20:38 IST" finished-at="2021-11-28T22:20:39 IST">
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
