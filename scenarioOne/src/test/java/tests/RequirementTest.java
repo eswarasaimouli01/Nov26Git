@@ -45,7 +45,7 @@ public class RequirementTest extends BaseClass{
 		String username = excelDataIsmport(0, 2);
 		System.out.println(username);
 		System.out.println("did some channges in local then pushing");
-		System.out.println("did some channges in local then pushing");//
+		System.out.println("did some channges in local then pushing");
 		System.out.println("did some channges in local then pushing");
 		System.out.println("did some channges in local then pushing");
 	}
