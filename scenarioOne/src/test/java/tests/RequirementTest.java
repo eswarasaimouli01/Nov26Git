@@ -28,6 +28,7 @@ public class RequirementTest extends BaseClass{
 	public void testData() throws IOException {
 		String username = excelDataIsmport(1, 1);
 		System.out.println(username);
+		System.out.println("did some channges in local then pushing");
 	}
 	
 	
