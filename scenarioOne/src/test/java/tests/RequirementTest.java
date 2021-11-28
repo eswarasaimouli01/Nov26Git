@@ -33,7 +33,9 @@ public class RequirementTest extends BaseClass{
 		System.out.println("did some channges in local then pushing");
 		System.out.println("did some channges in local then pushing");
 	}
-	
+	@afterTest
+	public void TearDrop() {
+	}
 	
 	
 }
